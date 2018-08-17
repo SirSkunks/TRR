@@ -1,4 +1,4 @@
-﻿Log file open, 08/16/18 14:53:06
+﻿Log file open, 08/17/18 13:14:40
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VGDUNRL_TTR_ALPHA
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-2030790724) SRandInit(-2030790724).
+LogInit: Display: RandInit(203507401) SRandInit(203507401).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.280297
+LogStats: Stats thread started at 0.283315
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.394s to configure plugins.
+LogStreaming: Display: Took  1.437s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -222,127 +222,59 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.08.16-18.53.07:866][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.16-18.53.07:866][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.08.16-18.53.07:872][  0]LogInit: Computer: DESKTOP-0HB3LSQ
-[2018.08.16-18.53.07:872][  0]LogInit: User: ChrisJ
-[2018.08.16-18.53.07:872][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.08.16-18.53.07:872][  0]LogInit: High frequency timer resolution =2.742188 MHz
-[2018.08.16-18.53.07:872][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.08.16-18.53.07:872][  0]LogMemory: Platform Memory Stats for Windows
-[2018.08.16-18.53.07:872][  0]LogMemory: Process Physical Memory: 275.26 MB used, 275.26 MB peak
-[2018.08.16-18.53.07:872][  0]LogMemory: Process Virtual Memory: 276.83 MB used, 276.83 MB peak
-[2018.08.16-18.53.07:873][  0]LogMemory: Physical Memory: 8317.79 MB used,  7935.49 MB free, 16253.28 MB total
-[2018.08.16-18.53.07:873][  0]LogMemory: Virtual Memory: 4807.34 MB used,  7935.49 MB free, 134217728.00 MB total
-[2018.08.16-18.53.08:612][  0]LogInit: Using OS detected language (en-US).
-[2018.08.16-18.53.08:612][  0]LogInit: Using OS detected locale (en-CA).
-[2018.08.16-18.53.08:612][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2018.08.16-18.53.08:612][  0]LogTextLocalizationManager: No localization for 'en-CA' exists, so 'en' will be used for the locale.
-[2018.08.16-18.53.09:780][  0]LogStreaming: Display: Took  1.168s to EndInitTextLocalization.
-[2018.08.16-18.53.10:076][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.08.16-18.53.10:076][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.08.16-18.53.10:084][  0]LogD3D11RHI: D3D11 adapters:
-[2018.08.16-18.53.10:205][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.08.16-18.53.10:205][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.08.16-18.53.10:291][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.08.16-18.53.10:291][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.08.16-18.53.10:294][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.08.16-18.53.10:294][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.08.16-18.53.10:294][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.08.16-18.53.10:302][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.08.16-18.53.10:302][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.08.16-18.53.10:302][  0]LogWindows: EnumDisplayDevices:
-[2018.08.16-18.53.10:302][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.08.16-18.53.10:303][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.08.16-18.53.10:303][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.08.16-18.53.10:303][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.08.16-18.53.10:303][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.16-18.53.10:304][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.16-18.53.10:304][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.16-18.53.10:305][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.08.16-18.53.10:305][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.08.16-18.53.10:305][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.08.16-18.53.10:305][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.08.16-18.53.10:305][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
-[2018.08.16-18.53.10:373][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.08.16-18.53.10:373][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.08.16-18.53.10:373][  0]LogD3D11RHI: Async texture creation enabled
-[2018.08.16-18.53.10:423][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.08.16-18.53.10:473][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../School/Unreal Project/TRR/VGDUNRL_TTR_ALPHA/Intermediate/Shaders/WorkingDirectory/18804/).
-[2018.08.16-18.53.10:474][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris J/AppData/Local/Temp/UnrealShaderWorkingDir/5C7FEB044CAC7B0BDB1090B46D3416D2/'.
-[2018.08.16-18.53.11:062][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.08.16-18.53.11:077][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.08.16-18.53.11:093][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.08.16-18.53.11:109][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.08.16-18.53.11:109][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.08.16-18.53.11:654][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.08.16-18.53.11:654][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.08.16-18.53.11:654][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.08.16-18.53.13:769][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.08.16-18.53.14:218][  0]LogDerivedDataCache: Loaded boot cache 0.45s 74MB C:/Users/Chris J/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.08.16-18.53.14:218][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chris J/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.08.16-18.53.14:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../School/Unreal Project/TRR/VGDUNRL_TTR_ALPHA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.08.16-18.53.14:218][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.08.16-18.53.14:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../School/Unreal Project/TRR/VGDUNRL_TTR_ALPHA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.08.16-18.53.14:218][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.08.16-18.53.14:303][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.08.16-18.53.14:316][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris J/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.08.16-18.53.14:316][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.08.16-18.53.14:316][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.08.16-18.53.14:329][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.08.16-18.53.14:353][  0]LogSlate: Using Freetype 2.6.0
-[2018.08.16-18.53.14:407][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.16-18.53.14:407][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.16-18.53.20:122][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
-[2018.08.16-18.53.20:688][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.014573 seconds
-[2018.08.16-18.53.20:858][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.16-18.53.21:246][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.08.16-18.53.21:264][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.08.16-18.53.21:264][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.08.16-18.53.21:264][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.08.16-18.53.21:264][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.08.16-18.53.21:264][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.08.16-18.53.21:320][  0]LogNetVersion: VGDUNRL_TTR_ALPHA , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 625581311)
-[2018.08.16-18.53.23:090][  0]LogMoviePlayer: Initializing movie player
-[2018.08.16-18.53.24:600][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.08.16-18.53.24:663][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.08.16-18.53.25:152][  0]SourceControl: Source control is disabled
-[2018.08.16-18.53.25:152][  0]SourceControl: Source control is disabled
-[2018.08.16-18.53.25:194][  0]SourceControl: Source control is disabled
-[2018.08.16-18.53.26:068][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.08.16-18.53.26:493][  0]LogOcInput: OculusInput pre-init called
-[2018.08.16-18.53.26:571][  0]LogUObjectArray: 40124 objects as part of root set at end of initial load.
-[2018.08.16-18.53.26:571][  0]LogUObjectAllocator: 8364208 out of 0 bytes used by permanent object pool.
-[2018.08.16-18.53.26:571][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.08.16-18.53.26:758][  0]LogEngine: Initializing Engine...
-[2018.08.16-18.53.26:760][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.16-18.53.26:774][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.16-18.53.26:774][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.16-18.53.27:063][  0]LogInit: XAudio2 using 'Headphones (JIB Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.16-18.53.27:123][  0]LogInit: FAudioDevice initialized.
-[2018.08.16-18.53.27:161][  0]LogInit: Texture streaming: Enabled
-[2018.08.16-18.53.27:545][  0]LogInit: Display: Game Engine Initialized.
-[2018.08.16-18.53.27:545][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.08.16-18.53.27:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.16-18.53.27:546][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.16-18.53.27:769][  0]LogInit: Display: Starting Game.
-[2018.08.16-18.53.27:769][  0]LogNet: Browse: /Game/2DSideScrollerBP/Maps/2DPuzzleLevelDLC?Name=Player
-[2018.08.16-18.53.27:776][  0]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/2DPuzzleLevelDLC?Name=Player
-[2018.08.16-18.53.27:891][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000177904bbc80, Size=400, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.08.16-18.53.27:892][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000177904d7070, Size=48, Default__2DSideScrollerGameMode_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:ExecuteUbergraph_2DSideScrollerGameMode
-[2018.08.16-18.53.27:894][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017790497e90, Size=16, Default__GameHUD_C Function /Game/2DSideScrollerBP/Blueprints/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD
-[2018.08.16-18.53.27:897][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000177904da580, Size=120, Default__GameUI_C Function /Game/2DSideScrollerBP/Blueprints/GameUI.GameUI_C:ExecuteUbergraph_GameUI
-[2018.08.16-18.53.27:955][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017790497e90, Size=16
-[2018.08.16-18.53.27:955][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017790497e90, Size=16, Default__GameHUD_C Function /Engine/Transient.REINST_GameHUD_C_3:ExecuteUbergraph_GameHUD
-[2018.08.16-18.53.27:956][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000177904d7070, Size=48
-[2018.08.16-18.53.27:956][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000177904d7070, Size=48, Default__2DSideScrollerGameMode_C Function /Engine/Transient.REINST_2DSideScrollerGameMode_C_4:ExecuteUbergraph_2DSideScrollerGameMode
-[2018.08.16-18.53.27:956][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000177904da580, Size=120
-[2018.08.16-18.53.27:956][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000177904da580, Size=120, Default__GameUI_C Function /Engine/Transient.REINST_GameUI_C_0:ExecuteUbergraph_GameUI
-[2018.08.16-18.53.27:957][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000177904bbc80, Size=400
-[2018.08.16-18.53.27:957][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000177a8e9e080, Size=400, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_5:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.08.16-18.53.27:972][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000177904d5810, Size=48, Default__2DSideScrollerGameMode_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:ExecuteUbergraph_2DSideScrollerGameMode
-[2018.08.16-18.53.27:974][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017790670600, Size=120, Default__GameUI_C Function /Game/2DSideScrollerBP/Blueprints/GameUI.GameUI_C:ExecuteUbergraph_GameUI
-[2018.08.16-18.53.27:976][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000177a8d67740, Size=400, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.08.16-18.53.28:211][  0]LogAIModule: Creating AISystem for world 2DPuzzleLevelDLC
-[2018.08.16-18.53.28:223][  0]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.08.16-18.53.28:235][  0]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/2DPuzzleLevelDLC.2DPuzzleLevelDLC up for play (max tick rate 0) at 2018.08.16-14.53.28
+[2018.08.17-17.14.42:149][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.17-17.14.42:149][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.17-17.14.42:153][  0]LogInit: Computer: DESKTOP-0HB3LSQ
+[2018.08.17-17.14.42:153][  0]LogInit: User: ChrisJ
+[2018.08.17-17.14.42:153][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.17-17.14.42:153][  0]LogInit: High frequency timer resolution =2.742187 MHz
+[2018.08.17-17.14.42:154][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.08.17-17.14.42:154][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.17-17.14.42:154][  0]LogMemory: Process Physical Memory: 275.29 MB used, 275.29 MB peak
+[2018.08.17-17.14.42:154][  0]LogMemory: Process Virtual Memory: 276.87 MB used, 276.87 MB peak
+[2018.08.17-17.14.42:154][  0]LogMemory: Physical Memory: 9348.70 MB used,  6904.58 MB free, 16253.28 MB total
+[2018.08.17-17.14.42:154][  0]LogMemory: Virtual Memory: 4807.34 MB used,  6904.58 MB free, 134217728.00 MB total
+[2018.08.17-17.14.42:618][  0]LogInit: Using OS detected language (en-US).
+[2018.08.17-17.14.42:618][  0]LogInit: Using OS detected locale (en-CA).
+[2018.08.17-17.14.42:618][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2018.08.17-17.14.42:618][  0]LogTextLocalizationManager: No localization for 'en-CA' exists, so 'en' will be used for the locale.
+[2018.08.17-17.14.43:125][  0]LogStreaming: Display: Took  0.508s to EndInitTextLocalization.
+[2018.08.17-17.14.43:212][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.17-17.14.43:212][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.17-17.14.43:228][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.17-17.14.43:322][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.08.17-17.14.43:322][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.08.17-17.14.43:849][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.08.17-17.14.43:849][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.17-17.14.43:852][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.17-17.14.43:852][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.17-17.14.43:852][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.17-17.14.43:898][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.17-17.14.43:898][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.17-17.14.43:898][  0]LogWindows: EnumDisplayDevices:
+[2018.08.17-17.14.43:898][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.08.17-17.14.43:898][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.08.17-17.14.43:898][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.08.17-17.14.43:899][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.08.17-17.14.43:899][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.08.17-17.14.43:899][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.08.17-17.14.43:899][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.08.17-17.14.43:899][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.17-17.14.43:899][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.08.17-17.14.43:899][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.17-17.14.43:899][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.17-17.14.43:899][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.08.17-17.14.43:953][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.17-17.14.43:953][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.17-17.14.43:953][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.17-17.14.43:990][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.17-17.14.44:093][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../School/Unreal Project/TRR/VGDUNRL_TTR_ALPHA/Intermediate/Shaders/WorkingDirectory/9300/).
+[2018.08.17-17.14.44:093][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris J/AppData/Local/Temp/UnrealShaderWorkingDir/E6A5F34C4DBC888B0C2664B312CB1F8A/'.
+[2018.08.17-17.14.44:404][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.17-17.14.44:419][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.17-17.14.44:434][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.17-17.14.44:450][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.17-17.14.44:450][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.17-17.14.44:601][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.17-17.14.44:601][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.17-17.14.44:601][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
